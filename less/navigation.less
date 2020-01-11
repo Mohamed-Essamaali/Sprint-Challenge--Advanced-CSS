@@ -1,1 +1,48 @@
 // Navigation code here
+.nav-bar {
+    .display-flx(center, center, column);
+    background: @nav-bg;
+        h1{
+            font-size: 4.5rem;
+            width:100%;
+            text-align: center;
+            @media @phone {
+                padding: 2% 0;
+                 font-size: 4rem;
+            }
+          
+        }
+
+        nav{
+            .display-flx(center, center, row);
+            width:100%;
+            padding:2%;
+            // border:3px solid @header-font-color;
+         
+            
+            
+            a{
+                width: 12%;
+                text-align: center;
+                
+                font-size: 1.5rem;
+                text-decoration: none;
+                color:@header-font-color;
+                @media @phone {
+                    width: 15%;
+                    font-size: 1.5rem;
+                }
+                
+                
+            }
+        }
+
+        img{
+            width: 100%;
+            border-radius: 5px;
+            
+
+        }
+
+
+}
